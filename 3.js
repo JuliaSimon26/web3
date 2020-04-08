@@ -15,8 +15,7 @@ const object3 = {
 
 // Реализуйте функцию isEquivalent
 function isEquivalent(a, b) {
-    if (a.name == b.name && a.weight == b.weight) {return true}
-    return false
+    return (a.name === b.name && a.weight === b.weight) 
 }
 console.log(isEquivalent(object1, object2)); // true
 console.log(isEquivalent(object1, object3)); // false
